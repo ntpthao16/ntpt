@@ -1,0 +1,26 @@
+body {
+    background-color: #c7aeae; 
+    color: #c52c2c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: rgba(3, 73, 117, 0.521);
+    background-color: rgb(86, 153, 224);
+}
+div {
+    position: sticky;
+}
+.dimg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img{
+    width: 180px;
+    height: 200px;
+}
+table, th, td {
+    border: 1px solid rgb(61, 55, 55);
+}

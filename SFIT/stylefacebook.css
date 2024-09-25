@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 600px; /* Adjust as needed */
+}
+
+.left-side, .right-side {
+    flex: 1;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: #f0f2f5;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.left-content h1 {
+    font-size: 40px;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.left-content p {
+    color: #65676b;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 35px;
+    text-align: center;
+}
+
+.login-box input, .login-box button, .Create-box {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+.login-box button:hover {
+    background-color: #165eab;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    display: block;
+    color: #1877f2;
+    margin: 10px 0;
+}
+
+.Create-box {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #16ee62;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
